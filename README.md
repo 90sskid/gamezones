@@ -1,1 +1,1 @@
-# gamezones
+# gamezy

@@ -478,7 +478,7 @@ $('.latest-games-active').owlCarousel({
 	loop: true,
 	margin: 30,
 	items: 5.5,
-	autoplay: false,
+	autoplay: true,
 	autoplayTimeout: 5000,
 	autoplaySpeed: 1000,
 	// navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
@@ -511,24 +511,24 @@ $('.latest-games-active-features').owlCarousel({
 	loop: true,
 	margin: 30,
 	items: 7.5,
-	autoplay: false,
+	autoplay: true,
 	autoplayTimeout: 5000,
-	autoplaySpeed: 1000,
+	autoplaySpeed: 2000,
 	// navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
 	// nav: true,
 	dots: false,
 	responsive: {
 		0: {
-			items: 5.5,
+			items: 4.5,
 			center: false,
 			nav: false,
 		},
 		575: {
-			items: 5.5,
+			items: 4.5,
 			center: false,
 		},
 		768: {
-			items: 5.5,
+			items: 4.5,
 			center: false,
 		},
 		992: {
@@ -547,9 +547,9 @@ $('.latest-games-active-2').slick({
 	slidesToShow: 3,
 	loop: true,
 	margin: 30,
-	autoplay: false,
+	autoplay: true,
 	autoplayTimeout: 5000,
-	autoplaySpeed: 5000,
+	autoplaySpeed: 2000,
 	responsive: [
 	  {
 		breakpoint: 768,

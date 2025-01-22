@@ -475,43 +475,77 @@ $('.testimonial-active').owlCarousel({
     =    		Latest Games		      =
 =============================================*/
 $('.latest-games-active').owlCarousel({
-	loop: true,
-	margin: 30,
-	items: 5.5,
-	autoplay: true,
-	autoplayTimeout: 5000,
-	autoplaySpeed: 1000,
-	// navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-	// nav: true,
-	dots: false,
-	responsive: {
-		0: {
-			items: 2.5,
-			center: false,
-			nav: false,
-		},
-		575: {
-			items: 2.5,
-			center: false,
-		},
-		768: {
-			items: 2.5,
-			center: false,
-		},
-		992: {
-			items: 5.5,
-			center: false,
-		},
-		1200: {
-			items: 5.5
-		},
-	}
-})
+    loop: true,
+    margin: 30,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    autoplaySpeed: 1000,
+    dots: false,
+    items: 2.5, // Default for all screens
+    responsive: {
+        0: {
+            items: 2.5, // Explicitly set for small screens
+            center: false,
+            nav: false,
+        },
+        575: {
+            items: 2.5,
+            center: false,
+        },
+        768: {
+            items: 2.5,
+            center: false,
+        },
+        992: {
+            items: 4.5, // Override for medium screens
+            center: false,
+        },
+        1200: {
+            items: 5.5, // Override for large screens
+            center: false,
+        },
+    }
+});
+
+$('.latest-games-active-trending').owlCarousel({
+    loop: true,
+    margin: 30,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    autoplaySpeed: 1000,
+    dots: false,
+    items: 2.5, // Default for all screens
+    responsive: {
+        0: {
+            items: 2.5, // Explicitly set for small screens
+            center: false,
+            nav: false,
+        },
+        575: {
+            items: 2.5,
+            center: false,
+        },
+        768: {
+            items: 2.5,
+            center: false,
+        },
+        992: {
+            items: 2.5, // Override for medium screens
+            center: false,
+        },
+        1200: {
+            items: 2.5, // Override for large screens
+            center: false,
+        },
+    }
+});
+
+
 $('.latest-games-active-features').owlCarousel({
 	loop: true,
 	margin: 30,
 	items: 7.5,
-	autoplay: true,
+	autoplay: false,
 	autoplayTimeout: 5000,
 	autoplaySpeed: 2000,
 	// navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
@@ -547,7 +581,7 @@ $('.latest-games-active-2').slick({
 	slidesToShow: 3,
 	loop: true,
 	margin: 30,
-	autoplay: true,
+	autoplay: false,
 	autoplayTimeout: 5000,
 	autoplaySpeed: 2000,
 	responsive: [

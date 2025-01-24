@@ -1723,7 +1723,7 @@ span.btn.wow.fadeInUp {
 
 .latest-games-active-2 .slick-center {
     box-shadow: -10px 10px 20px rgba(255, 223, 0, 0.6), 10px 10px 20px rgba(255, 223, 0, 0.6); 
-    transform: scale(1.05); 
+    /* transform: scale(1.05);  */
     transition: all 0.3s ease; 
 }
 
@@ -6932,7 +6932,7 @@ span.btn.wow.fadeInUp {
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 24px;
-	border-radius: 28px;
+	border-radius: 50px;
 	overflow: hidden;
 	transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
   }

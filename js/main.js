@@ -477,7 +477,7 @@ $('.testimonial-active').owlCarousel({
 $('.latest-games-active').owlCarousel({
     loop: true,
     margin: 30,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 5000,
     autoplaySpeed: 1000,
     dots: false,
@@ -510,7 +510,7 @@ $('.latest-games-active').owlCarousel({
 $('.latest-games-active-trending').owlCarousel({
     loop: true,
     margin: 30,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 5000,
     autoplaySpeed: 1000,
     dots: false,
@@ -545,7 +545,7 @@ $('.latest-games-active-features').owlCarousel({
 	loop: true,
 	margin: 30,
 	items: 7.5,
-	autoplay: true,
+	autoplay: false,
 	autoplayTimeout: 5000,
 	autoplaySpeed: 2000,
 	// navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
@@ -581,7 +581,7 @@ $('.latest-games-active-2').slick({
 	slidesToShow: 3,
 	loop: true,
 	margin: 30,
-	autoplay: true,
+	autoplay: false,
 	autoplayTimeout: 5000,
 	autoplaySpeed: 2000,
 	responsive: [

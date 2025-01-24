@@ -28,9 +28,9 @@ a.meanmenu-reveal {
 	cursor: pointer;
 	display: block;
 	font-family: Arial,Helvetica,sans-serif;
-	font-size: 16px;
+	font-size: 1px;
 	font-weight: 700;
-	height: 40px;
+	height: 22px;
 	line-height: 22px;
 	margin-top: -44px;
 	padding: 8px 9px;
@@ -38,7 +38,7 @@ a.meanmenu-reveal {
 	right: 0;
 	text-decoration: none;
 	top: 0;
-	width: 40px;
+	width: 22px;
 	z-index: 9999;
 }
 .mean-container a.meanmenu-reveal span {
@@ -46,16 +46,16 @@ a.meanmenu-reveal {
   display: block;
   height: 3px !important;
   margin-top: 3px;
-  height: 4px; /* Adjusted height for the lines */
-    margin: 4px 0; /* Added margin for spacing between lines */
-    width: 100%; /* Ensure lines span the full width of the menu button */
+  /* height: 4px; 
+    margin: 4px 0; 
+    width: 100%;  */
 }
 
-.mean-container a.meanmenu-reveal span {
+/* .mean-container a.meanmenu-reveal span {
     border: 1px solid rgb(255, 255, 255);
-	/* margin-top: 9px; */
+	margin-top: 9px;
 	border-radius: 2px
-}
+} */
 
 .mean-container .mean-nav {
 	background: #1c1121 none repeat scroll 0 0;
